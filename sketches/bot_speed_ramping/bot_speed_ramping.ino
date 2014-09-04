@@ -3,9 +3,9 @@
 Servo rightServo;
 Servo leftServo;
 
-#define MAX_FORWARD  1680
-#define NEUTRAL 1520
-#define MAX_BACKWARD 1360
+#define MAX_FORWARD  1800
+#define NEUTRAL 1500
+#define MAX_BACKWARD 1200
 #define SPEED_CORRECTION 40
 
 int leftSpeed = NEUTRAL;
@@ -87,15 +87,17 @@ int look() {
 }
 int dir = 0;
 
+
+
 void loop() { 
-//  Serial.println(look());
+  Serial.println(look());
   delay(100);
   int l = look();
-//  if (l < 300) {
-//    backward();
-//  } else 
+  if (l < 300) {
+    backward();
+  } else 
   if (l > 500) {
-//    stop();
+    stop();
     if (dir == 0) {
       randomSeed(millis());
       dir = random(1, 3);
@@ -109,5 +111,5 @@ void loop() {
     forward();
     dir = 0;
   }
-  correctSpeed();
+  correctSpeed(); // speed rampling
 }

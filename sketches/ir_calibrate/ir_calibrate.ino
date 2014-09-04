@@ -33,6 +33,7 @@ void setup() {
 void loop() { 
   delay(500);
   int curr_dist = distance(A0);
+  Serial.println(analogRead(A0));
   Serial.print(curr_dist);
   Serial.println("cm");
 }
