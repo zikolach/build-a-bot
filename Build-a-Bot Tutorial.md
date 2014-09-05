@@ -1,19 +1,19 @@
 # Build-a-Bot Tutorial
 
-* Components
-* Basic flow
-  * LED blinking
-  * Connect IR sensor
-  * Connect servo
-  * Power it with batteries
-  * Build robot body
-  * Program robot
-  * Shuttle run
-  * Move along straight way
-  * Snake moving
-* Advanced flow
-  * Robotic sumo
-  * Line following
+* [Components](#user-content-components)
+* [Basic flow](#user-content-basic-flow)
+  * [LED blinking](#user-content-led-blinking)
+  * [Connect IR sensor](#user-content-connect-ir-sensor)
+  * [Connect servo](#user-content-connect-servo)
+  * [Power it with batteries](#user-content-power-it-with-batteries)
+  * [Build robot body](#user-content-build-robot-body)
+  * [Program robot](#user-content-program-robot)
+  * [Shuttle run](#user-content-shuttle-run)
+  * [Move along straight way](#user-content-move-along-straight-line)
+  * [Snake moving](#user-content-snake-moving)
+* [Advanced flow](#user-content-advanced-flow)
+  * [Robotic sumo](#user-content-robotic-sumo)
+  * [Line following](#user-content-line-following)
 * [FAQ](#user-content-faq)
 * [Links](#user-content-links)
 * [Appendix 1. LED blinking example](#user-content-appendix-1-led-blinking-example)
@@ -25,7 +25,7 @@
 
 This tutorial will guide you through the process of creating autonomous wheeled robots.
 
-Components
+# Components
 
 1. Arduino UNO R3 x1
 2. USB cable x1
